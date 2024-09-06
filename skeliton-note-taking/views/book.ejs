@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book <%=date%></title>
+    <style>
+        #box{
+            height: 80%;
+            width: 20%;
+        }
+    </style>
+</head>
+<body>
+    <h1><%=date%></h1>
+    <form action="/book/<%=date%>/update" method="post">
+    <input type="text" name="text" id="box" value="<%=text%>">
+    <input type="submit" value="Edit">
+</form>
+<a href="/book/<%=date%>/delete/">delete</a>
+<a href="/">home</a>
+
+</body>
+</html>
