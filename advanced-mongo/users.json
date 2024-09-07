@@ -1,0 +1,75 @@
+{
+    "users":[
+        {
+          "username": "john_doe1",
+          "name": "John Doe",
+          "age": "25",
+          "email": "johndoe1@example.com",
+          "isStudent": false
+        },
+        {
+          "username": "jane_smith1",
+          "name": "Jane Smith",
+          "age": "22",
+          "email": "janesmith1@example.com",
+          "isStudent": true
+        },
+        {
+          "username": "sam_jones1",
+          "name": "Sam Jones",
+          "age": "19",
+          "email": "samjones1@example.com",
+          "isStudent": true
+        },
+        {
+          "username": "alex_brown1",
+          "name": "Alex Brown",
+          "age": "30",
+          "email": "alexbrown1@example.com",
+          "isStudent": false
+        },
+        {
+          "username": "lisa_white1",
+          "name": "Lisa White",
+          "age": "27",
+          "email": "lisawhite1@example.com",
+          "isStudent": false
+        },
+        {
+          "username": "michael_green1",
+          "name": "Michael Green",
+          "age": "23",
+          "email": "michaelgreen1@example.com",
+          "isStudent": true
+        },
+        {
+          "username": "emily_lee1",
+          "name": "Emily Lee",
+          "age": "21",
+          "email": "emilylee1@example.com",
+          "isStudent": true
+        },
+        {
+          "username": "david_clark1",
+          "name": "David Clark",
+          "age": "26",
+          "email": "davidclark1@example.com",
+          "isStudent": false
+        },
+        {
+          "username": "sarah_kim1",
+          "name": "Sarah Kim",
+          "age": "24",
+          "email": "sarahkim1@example.com",
+          "isStudent": false
+        },
+        {
+          "username": "peter_wong1",
+          "name": "Peter Wong",
+          "age": "20",
+          "email": "peterwong1@example.com",
+          "isStudent": true
+        }
+      ]
+      
+}
