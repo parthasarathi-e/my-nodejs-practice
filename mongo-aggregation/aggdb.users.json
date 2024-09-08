@@ -1,0 +1,122 @@
+[
+  {
+    "_id": { "$oid": "66dd332fdf945cfa7714728e" },
+    "name": "John Doe",
+    "age": 25,
+    "email": "johndoe@example.com",
+    "createdAt": "2024-09-06T12:00:00Z",
+    "likes": ["JavaScript", "Python"]
+  },
+  {
+    "_id": { "$oid": "66dd332fdf945cfa7714728f" },
+    "name": "Jane Smith",
+    "age": 22,
+    "email": "janesmith@example.com",
+    "createdAt": "2024-09-06T12:00:00Z",
+    "likes": ["Ruby", "Go"]
+  },
+  {
+    "_id": { "$oid": "66dd332fdf945cfa77147290" },
+    "name": "Sam Jones",
+    "age": 19,
+    "email": "samjones@example.com",
+    "createdAt": "2024-09-06T12:00:00Z",
+    "likes": ["C++", "Swift"]
+  },
+  {
+    "_id": { "$oid": "66dd332fdf945cfa77147291" },
+    "name": "Alex Brown",
+    "age": 30,
+    "email": "alexbrown@example.com",
+    "createdAt": "2024-09-06T12:00:00Z",
+    "likes": ["PHP", "JavaScript"]
+  },
+  {
+    "_id": { "$oid": "66dd332fdf945cfa77147292" },
+    "name": "Lisa White",
+    "age": 27,
+    "email": "lisawhite@example.com",
+    "createdAt": "2024-09-06T12:00:00Z",
+    "likes": ["Java", "Python"]
+  },
+  {
+    "_id": { "$oid": "66dd332fdf945cfa77147293" },
+    "name": "Michael Green",
+    "age": 23,
+    "email": "michaelgreen@example.com",
+    "createdAt": "2024-09-06T12:00:00Z",
+    "likes": ["C#", "Ruby"]
+  },
+  {
+    "_id": { "$oid": "66dd332fdf945cfa77147294" },
+    "name": "Emily Lee",
+    "age": 21,
+    "email": "emilylee@example.com",
+    "createdAt": "2024-09-06T12:00:00Z",
+    "likes": ["Kotlin", "PHP"]
+  },
+  {
+    "_id": { "$oid": "66dd332fdf945cfa77147295" },
+    "name": "David Clark",
+    "age": 26,
+    "email": "davidclark@example.com",
+    "createdAt": "2024-09-06T12:00:00Z",
+    "likes": ["Python", "Swift"]
+  },
+  {
+    "_id": { "$oid": "66dd332fdf945cfa77147296" },
+    "name": "Sarah Kim",
+    "age": 24,
+    "email": "sarahkim@example.com",
+    "createdAt": "2024-09-06T12:00:00Z",
+    "likes": ["C++", "Go"]
+  },
+  {
+    "_id": { "$oid": "66dd332fdf945cfa77147297" },
+    "name": "Peter Wong",
+    "age": 20,
+    "email": "peterwong@example.com",
+    "createdAt": "2024-09-06T12:00:00Z",
+    "likes": ["JavaScript", "Ruby"]
+  },
+  {
+    "_id": { "$oid": "66dd332fdf945cfa77147298" },
+    "name": "Olivia Harris",
+    "age": 28,
+    "email": "oliviaharris@example.com",
+    "createdAt": "2024-09-06T12:00:00Z",
+    "likes": ["Java", "C#"]
+  },
+  {
+    "_id": { "$oid": "66dd332fdf945cfa77147299" },
+    "name": "Ethan Cooper",
+    "age": 29,
+    "email": "ethancooper@example.com",
+    "createdAt": "2024-09-06T12:00:00Z",
+    "likes": ["Python", "Kotlin"]
+  },
+  {
+    "_id": { "$oid": "66dd332fdf945cfa7714729a" },
+    "name": "Sophia Torres",
+    "age": 18,
+    "email": "sophiatorres@example.com",
+    "createdAt": "2024-09-06T12:00:00Z",
+    "likes": ["Swift", "Go"]
+  },
+  {
+    "_id": { "$oid": "66dd332fdf945cfa7714729b" },
+    "name": "Lucas Edwards",
+    "age": 31,
+    "email": "lucasedwards@example.com",
+    "createdAt": "2024-09-06T12:00:00Z",
+    "likes": ["C#", "PHP"]
+  },
+  {
+    "_id": { "$oid": "66dd332fdf945cfa7714729c" },
+    "name": "Ava Martinez",
+    "age": 32,
+    "email": "avamartinez@example.com",
+    "createdAt": "2024-09-06T12:00:00Z",
+    "likes": ["JavaScript", "C++"]
+  }
+]
