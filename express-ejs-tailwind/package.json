@@ -1,0 +1,22 @@
+{
+  "name": "express-ejs-tailwind",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build:css":"npx tailwind -i ./public/css/styles.css -o ./public/css/output.css",
+    "dev":"npm run build:css && node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "autoprefix": "^1.0.1",
+    "postcss": "^8.4.45",
+    "tailwindcss": "^3.4.10"
+  }
+}
