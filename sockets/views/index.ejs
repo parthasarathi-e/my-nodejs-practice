@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p{
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <input type="text" />
+    <button class="send">Send</button>
+    <h1>Messages</h1>
+    <div class="msgContainer"></div>
+    <script src="https://cdn.socket.io/4.7.5/socket.io.min.js"
+        integrity="sha384-2huaZvOR9iDzHqslqwpR87isEmrfxqyWOF7hr7BY6KG0+hVKLoEXMPUJw3ynWuhO"
+        crossorigin="anonymous"></script>
+    <script>
+        let socket = io();
+        let connectButton = document.querySelector(".connect");
+        let sendButton = document.querySelector(".send");
+        let input = document.querySelector("input");
+        let container = document.querySelector(".msgContainer")
+        sendButton.addEventListener("click", (e) => {
+            e.preventDefault();
+            socket.emit("message", input.value);
+        })
+        socket.on("message",data=>{
+            let pNode = document.createElement("p").innerHTML = `${data}\n`;
+            
+            container.append(pNode)
+        })
+       
+    </script>
+</body>
+
+</html>
