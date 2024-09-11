@@ -49,14 +49,30 @@ const createPeerConnection = async () => {
     }
 }
 
-const handleSignalingMessage = async (message)=>{
-const {type,offer,answer,candidate} = JSON.parse(message);
+const handleSignalingMessage = async (message) => {
+    const { type, offer, answer, candidate } = JSON.parse(message);
 
-if(type=="offer") handleOffer(offer);
-if(type=="answer") handleAnswer(answer);
-if(type=="candidate" && peerConnection) {
-    peerConnection.addIceCandidate(candidate);
-} 
+    if (type == "offer") handleOffer(offer);
+    if (type == "answer") handleAnswer(answer);
+    if (type == "candidate" && peerConnection) {
+        peerConnection.addIceCandidate(candidate);
+    }
+}
+
+const handleOffer = async (offer) => {
+    await createPeerConnection();
+    await peerConnection.setRemoteDescription(offer)
+
+    const answer = peerConnection.createAnswer();
+    await peerConnection.setLocalDescription(answer);
+
+    socket.emit("signalingMessage",{ type: "answer", answer })
+}
+
+const handleAnswer = async (answer) => {
+    if (!peerConnection.currentRemoteDescription) {
+        peerConnection.setRemoteDescription(answer);
+    }
 }
 
 init();
