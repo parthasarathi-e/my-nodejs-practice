@@ -1,0 +1,80 @@
+/* General styles */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000;
+}
+
+/* Video container */
+/* Video container */
+#videos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 100vw;
+    height: calc(100vh - 80px); /* Leaves space for the control buttons */
+}
+
+.video-player {
+    background-color: #222;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+/* Default video sizes */
+.video-player {
+    width: 45%;
+    height: auto;
+    margin: 0 10px;
+}
+
+/* Make remote video big */
+.big-video {
+    width: 70%; /* Larger size for remote video */
+}
+
+/* Make local video small */
+.small-video {
+    width: 25%; /* Smaller size for local video */
+    position: absolute;
+    bottom: 100px;
+    right: 20px;
+    border: 2px solid white;
+    z-index: 10;
+}
+
+
+/* Control buttons */
+#controls {
+    position: absolute;
+    bottom: 20px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.control-container {
+    margin: 0 10px;
+    background-color: #333;
+    padding: 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+
+.control-container:hover {
+    background-color: #555;
+}
+
+.control-container svg {
+    fill: #fff;
+}
